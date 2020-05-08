@@ -1,3 +1,44 @@
+/* color of main text #212121; */
+/* color of the second text #757575; */
+/* white color #ffffff; */
+/* akcent #2196F3; */
+/* developed by rgba(255, 255, 255, 0.4); */
+/* the second color of background #F5F4FA; */
+
+/*body*/
+body {
+  color: #757575;
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
+}
 a {
   text-decoration: none;
+}
+
+/*logo*/
+.logo {
+  color: #212121;
+}
+span {
+  color: #2196f3;
+}
+
+/* navigtion */
+.site-nav a {
+  color: #212121;
+}
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
+/* main part */
+
+.section-title {
+  color: #212121;
+}
+.banner {
+  text-align: center;
 }
