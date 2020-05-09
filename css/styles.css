@@ -96,7 +96,8 @@ span {
 }
 
 /*In general hear shold have been the second page*/
-.projects h3 {
+.projects h3,
+h1 {
   color: var(--color-of-main-text);
 }
 .projects p {
