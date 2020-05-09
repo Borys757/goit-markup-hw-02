@@ -5,6 +5,7 @@
   --white-color: #ffffff;
   --developed-by: rgba(255, 255, 255, 0.4);
   --second-color-background: #f5f4fa;
+  --secondary-buttom-background: #f5f4fa;
 }
 
 /* color of main text #212121; */
@@ -42,6 +43,10 @@ span {
 .site-nav a:focus {
   color: var(--akcent);
 }
+.site-nav .link.current {
+  color: var(--akcent);
+}
+
 .connection a {
   color: var(--color-of-main-text);
 }
@@ -61,17 +66,24 @@ span {
   color: var(--color-of-main-text);
 }
 /* buttom */
-.buttom {
+.buttom.primary {
   color: var(--white-color);
   background-color: var(--akcent);
 }
-
-/* WRONG .img img {
-  background-color: var(--white-color);
+.buttom.secondary:hover,
+.buttom.secondary:focus {
+  color: var(--white-color);
+  background-color: var(--akcent);
 }
-.img img:hover {
-  color: var(--akcent);
-}*/
+.buttom.secondary {
+  color: var(--color-of-main-text);
+  background-color: var(--secondary-buttom-background);
+}
+
+.icon:hover,
+.icon:focus {
+  background-color: var(--akcent);
+}
 
 .feathure h2 {
   text-align: center;
@@ -81,4 +93,12 @@ span {
 }
 .clients h2 {
   text-align: center;
+}
+
+/*In general hear shold have been the second page*/
+.projects h3 {
+  color: var(--color-of-main-text);
+}
+.projects p {
+  color: var(--color-of-second-text);
 }
