@@ -1,3 +1,12 @@
+:root {
+  --color-of-main-text: #212121;
+  --color-of-second-text: #757575;
+  --akcent: #2196f3;
+  --white-color: #ffffff;
+  --developed-by: rgba(255, 255, 255, 0.4);
+  --second-color-background: #f5f4fa;
+}
+
 /* color of main text #212121; */
 /* color of the second text #757575; */
 /* white color #ffffff; */
@@ -7,8 +16,8 @@
 
 /*body*/
 body {
-  color: #757575;
-  background-color: #ffffff;
+  color: var(--color-of-second-text);
+  background-color: var(--white-color);
 }
 ul {
   list-style: none;
@@ -19,26 +28,57 @@ a {
 
 /*logo*/
 .logo {
-  color: #212121;
+  color: var(--color-of-main-text);
 }
 span {
-  color: #2196f3;
+  color: var(--akcent);
 }
 
 /* navigtion */
 .site-nav a {
-  color: #212121;
+  color: var(--color-of-main-text);
 }
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--akcent);
 }
-
+.connection a {
+  color: var(--color-of-main-text);
+}
+.connection a:hover,
+.connection a:focus {
+  color: var(--akcent);
+}
 /* main part */
 
 .section-title {
-  color: #212121;
+  color: var(--color-of-main-text);
 }
+/* banner */
+
 .banner {
+  text-align: center;
+  color: var(--color-of-main-text);
+}
+/* buttom */
+.buttom {
+  color: var(--white-color);
+  background-color: var(--akcent);
+}
+
+/* WRONG .img img {
+  background-color: var(--white-color);
+}
+.img img:hover {
+  color: var(--akcent);
+}*/
+
+.feathure h2 {
+  text-align: center;
+}
+.team h2 {
+  text-align: center;
+}
+.clients h2 {
   text-align: center;
 }
