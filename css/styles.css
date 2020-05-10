@@ -37,11 +37,11 @@ a {
 }
 .logo.main {
   font-size: 26px;
-  line-height: 1.19px;
+  line-height: 1.19;
 }
 .logo.secondary {
   font-size: 22px;
-  line-height: 1.18px;
+  line-height: 1.18;
 }
 span {
   color: var(--akcent);
@@ -82,7 +82,7 @@ span {
   color: var(--color-of-main-text);
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
 }
 .section.advantage,
@@ -95,7 +95,7 @@ footer {
 .section.advantages p {
   font-weight: normal;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 /* banner */
@@ -108,7 +108,7 @@ footer {
 .banner-title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36px;
+  line-height: 1.36;
 }
 /* buttom */
 .buttom.primary {
@@ -117,7 +117,7 @@ footer {
   letter-spacing: 0.06em;
   font-weight: bold;
   font-size: 16px;
-  line-height: 1.87px;
+  line-height: 1.87;
 }
 button:hover,
 button:focus {
@@ -127,6 +127,9 @@ button:focus {
 button {
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
 }
 
 .icon:hover,
@@ -152,46 +155,58 @@ h1 {
 .projects p {
   color: var(--color-of-second-text);
 }
-.paragraf {
+.first-paragraf {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+.second-paragraf {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.55;
   letter-spacing: 0.03em;
 }
 .projects h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .section.feathure .section-title {
   color: var(--color-of-main-text);
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
 }
 .section.feathure p {
   font-weight: bold;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 }
 .section.team .section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16;
   color: var(--color-of-main-text);
 }
 .section.team .own-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-of-main-text);
 }
 .section.team .own-skills {
   font-weight: normal;
   font-size: 16px;
-  line-height: 1.18px;
+  line-height: 1.18;
 }
 .section.clients .section-title {
   font-weight: bold;
   font-size: 36px;
-  line-height: 1.16px;
+  line-height: 1.16;
   color: var(--color-of-main-text);
 }
 address {
@@ -202,10 +217,16 @@ address {
 }
 div b {
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
 }
 .goit {
   font-weight: normal;
   font-size: 12px;
-  line-height: 2px;
+  line-height: 2;
+}
+.main-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
 }
