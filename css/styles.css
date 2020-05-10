@@ -6,6 +6,8 @@
   --developed-by: rgba(255, 255, 255, 0.4);
   --second-color-background: #f5f4fa;
   --secondary-buttom-background: #f5f4fa;
+  --background-footer: #2f303a;
+  --footer-text: rgba(255, 255, 255, 0.6);
 }
 
 /* color of main text #212121; */
@@ -45,6 +47,9 @@ a {
 }
 span {
   color: var(--akcent);
+}
+.span {
+  color: var(--white-color);
 }
 
 /* navigtion */
@@ -115,7 +120,7 @@ footer {
   color: var(--white-color);
   background-color: var(--akcent);
   letter-spacing: 0.06em;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 16px;
   line-height: 1.87;
 }
@@ -185,6 +190,9 @@ h1 {
   font-size: 14px;
   line-height: 1.14;
 }
+.section.team {
+  background-color: var(--second-color-background);
+}
 .section.team .section-title {
   font-weight: bold;
   font-size: 36px;
@@ -214,19 +222,25 @@ address {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  color: var(--footer-text);
 }
 div b {
   font-size: 14px;
   line-height: 1.14;
+  color: var(--white-color);
 }
 .goit {
   font-weight: normal;
   font-size: 12px;
   line-height: 2;
+  color: var(--footer-text);
 }
 .main-name {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
+}
+footer {
+  background-color: var(--background-footer);
 }
