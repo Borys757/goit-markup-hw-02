@@ -19,6 +19,7 @@
 body {
   color: var(--color-of-second-text);
   background-color: var(--white-color);
+  font-family: roboto, sans-serif;
 }
 ul {
   list-style: none;
@@ -30,6 +31,8 @@ a {
 /*logo*/
 .logo {
   color: var(--color-of-main-text);
+  font-family: Raleway, sans-serif;
+  letter-spacing: 0.03em;
 }
 span {
   color: var(--akcent);
@@ -38,6 +41,9 @@ span {
 /* navigtion */
 .site-nav a {
   color: var(--color-of-main-text);
+}
+.site-nav {
+  letter-spacing: 0.02em;
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -59,25 +65,34 @@ span {
 .section-title {
   color: var(--color-of-main-text);
 }
+.section.advantage,
+.section.feathure,
+.section.team,
+.section.clients,
+footer {
+  letter-spacing: 0.03em;
+}
 /* banner */
 
 .banner {
   text-align: center;
   color: var(--color-of-main-text);
+  letter-spacing: 0.06em;
 }
 /* buttom */
 .buttom.primary {
   color: var(--white-color);
   background-color: var(--akcent);
+  letter-spacing: 0.06em;
 }
 button:hover,
 button:focus {
   color: var(--white-color);
   background-color: var(--akcent);
 }
-.buttom.secondary {
-  color: var(--color-of-main-text);
-  background-color: var(--secondary-buttom-background);
+button {
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 .icon:hover,
@@ -102,4 +117,10 @@ h1 {
 }
 .projects p {
   color: var(--color-of-second-text);
+}
+.paragraf {
+  letter-spacing: 0.03em;
+}
+.projects h3 {
+  letter-spacing: 0.06em;
 }
