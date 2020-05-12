@@ -89,6 +89,7 @@ span {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .section.advantage,
 .section.feathure,
@@ -189,6 +190,7 @@ h1 {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .section.team {
   background-color: var(--second-color-background);
@@ -224,10 +226,17 @@ address {
   font-style: normal;
   color: var(--footer-text);
 }
+address .address-first {
+  color: var(--white-color);
+}
+address .address-second {
+  color: var(--footer-text);
+}
 div b {
   font-size: 14px;
   line-height: 1.14;
   color: var(--white-color);
+  text-transform: uppercase;
 }
 .goit {
   font-weight: normal;
